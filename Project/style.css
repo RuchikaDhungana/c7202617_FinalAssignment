@@ -1,0 +1,352 @@
+html,body
+{
+	height:100%;
+	width:100%;
+	font-family:;
+
+}
+.navbar
+{
+	font-size:1rem;
+	letter-spacing:.1rem;
+}
+.navbar-brand img
+{
+	height:3rem;
+}
+.navbar-nav li
+{
+	padding-right:.7rem;
+}
+.navbar-dark, .navbar-nav,.nav-link
+{
+	color:#1ebba3;
+
+}
+
+.carousel-inner img
+{
+	width:100%;
+}
+.carousel-caption
+{
+	position:absolute;
+	text-shadow:1px 1px 10px #000;
+
+}
+.padding
+{
+	padding-bottom:2rem;
+}
+.welcome
+{
+	width:75%;
+	margin: 0 auto;
+	padding-top:2rem;
+	padding-bottom:5rem;
+}
+.welcome hr
+{
+	border-top:2px solid #b4b4b4;
+	width:95%;
+	margin-top:.3rem;
+	margin-top:1rem;
+}
+.fa-store, .fa-coffee, .fa-gifts
+{
+	font-size:3em;
+	margin:1rem;
+}
+.body
+{
+	margin:0px;
+}
+.btn-primary
+{
+	margin-top:120px;
+	margin-left:200px;
+}
+.box
+{
+	background:url("bg.jpg") center center no-repeat;
+	height:800px;
+}
+.box2
+{
+	width:150px;
+	min-height:30px;
+	border-top:2px groove #ffffff;
+	border-bottom:2px groove #ffffff;
+	border-left:2px groove #ffffff;
+	border-right:2px groove #ffffff;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+	 padding-top:2px;
+	 margin-left:20px;
+}
+.box2 a
+{
+   color:#000000;
+  text-decoration:none;
+  font-size:15px;
+}
+.box2 a:hover
+{
+	color:#efefef;
+  text-decoration:underline;
+}
+.social a
+{
+	padding-right:50px;
+}
+.social img
+{
+	width:20px;
+    height: 20px;
+}
+footer
+{
+	background-color:#3f3f3f;
+	color:#d5d5d5;
+	padding-top:2rem;
+}
+hr.light
+{
+	border-top: 1px solid #d5d5d5;
+	width:75%;
+	margin-top:.8rem;
+	margin-bottom:1rem;
+}
+hr.light1
+{
+border-top: 0.5px solid #d5d5d5;
+	width:100%
+	margin-top:.8rem;
+	margin-bottom:1rem;
+}
+.section h1
+{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.section p
+{
+	margin-top:30px;
+	
+}
+
+.jumbotron
+{
+	border-radius:0;
+}
+h3.header
+{
+	font-size:2rem;
+	font-weight:500;
+	text-align:center;
+}
+hr.small
+{
+	width:3%;
+	background-color:#1ebba3;
+	height:3px;
+	margin-bottom:1.9rem;
+
+}
+.menu img
+{ 
+	max-width:100%;
+		margin-bottom: 15px;
+
+
+}
+.menu img:hover
+{ 
+	transform:scale(1.1);
+	cursor:zoom-in;
+}
+.p_heading
+{
+	text-align:center;
+	font-size:20px;
+	color:#1ebba3;
+	margin-top:2px;
+	padding-bottom:5px;
+
+}
+.p_heading:hover
+{
+  transform:scale(1.1);
+	
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+.btn.btn-secondary.btn-md
+{
+	background-color:#1ebba3;
+	border-color: #1ebba3;
+}
+.narrow
+{
+	width:75%;
+	margin:0 auto;
+	padding-top:50px;
+}
+.fixed-bg
+{
+   background-image: url("1.png");
+   z-index: -1;
+   height:300px;
+  
+}
+
+.text
+{
+	font-weight:700;
+}
+.box4
+{
+	width:800px;
+	min-height:200px;
+	margin-left:60px;
+	margin-top:100px;
+	background-color: #3f3f3f;
+}
+.box4 p
+{
+	color:#ffffff;
+}
+.fa-gifts, .fa-coffee, .fa-store
+{
+   margin-top:200px;
+}
+.login_img
+{
+	background:url("login.jpg");
+	background-attachment: fixed;
+}
+.login_text 
+{
+	margin-top:180px;
+	color:#ffffff;
+}
+.login-text 
+{
+	
+	color:#ffffff;
+}
+.textR
+{
+	color:#ffffff;
+	font-size:25px;
+}
+.fa-edit
+{
+ color:#ffffff;
+ font-size:30px;
+ float:right;
+ margin-top:20px;
+}
+.form
+{
+	margin-top:80px;
+	box-shadow:-1px, 1px, 60px, 10px black;
+	background: rgba(0,0,0,0.4);
+}
+.label
+{
+	font-weight:normal;
+	margin-top: 18px;
+	color: #ffffff;
+	font-size:15px;
+}
+.form-control
+{
+	font-size:18px;
+	margin-top: 10px;
+    margin-left:5px;
+	height:40px;
+	width:300px
+}
+input[type="checkbox"]
+{
+	margin-top:15px;
+	width:15px;
+	height:15px;
+}
+small
+{
+	font-size:15px;
+	color:#ffffff;
+}
+input[type="radio"]
+{
+	margin-top:22px;
+	margin-left:22px;
+
+}
+option
+{
+	color:gray;
+}
+.btn-info
+{
+	margin-top:20px;
+	font-size:18px;
+	margin-left:130px;
+	margin-bottom:20px;
+}
+.btn-warning
+{
+	margin-top:20px;
+	font-size:18px;
+
+	margin-bottom:20px;
+}
+	
+.invalid-feedback p
+{
+	color:#ffffff;
+	font-size:10px;
+	margin-top:10px;
+}
+.location_heading
+{
+	color:#1ebba3;
+	font-size:50px;
+	text-align:center;
+	margin-top:100px;
+}
+.location_btn
+{
+	background-color:#1ebba3;
+	border-color:#1ebba3;
+	margin-top:50px;
+	margin-left:230px;
+}
+.img-fluid 
+{
+	width:500px;
+	height:480px;
+	margin-left:30px;
+	margin-top:30px;
+}
+.tables
+{
+	margin-top:50px;
+    margin-bottom:50px;
+
+}
+.fa-angle-down
+{
+	float:right;
+	color:#000;
+}
+.mb-0
+{
+	color:#000;
+}

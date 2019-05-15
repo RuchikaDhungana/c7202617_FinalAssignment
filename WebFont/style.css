@@ -1,0 +1,54 @@
+/* General setup */
+@font-face 
+{
+    font-family: 'cabinregular';
+    src: url('Font/cabin-regular-webfont.woff2') format('woff2'),
+         url('Font/cabin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'concert_oneregular';
+    src: url('Font/concertone-regular-webfont.woff2') format('woff2'),
+         url('Font/concertone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: 'cabinregular';
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.9rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+/*Styling Header Fonts*/
+h1,h2
+{
+  font-family: 'concert_oneregular';
+  letter-spacing: 0.1rem;
+}
